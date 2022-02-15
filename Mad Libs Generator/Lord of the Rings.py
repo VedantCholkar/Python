@@ -1,0 +1,17 @@
+# From 'The Hobbit' by J.R.R Tolkien
+def new_line():
+    print('\n')
+new_line()
+name = input('Name: ')
+verb = input('Verb: ')
+object_plural = input('Object(plural): ')
+adjective = input('Adjective: ')
+adjective2 = input('Another Adjective: ')
+new_line()
+print(f"{name} gets caught by Smaug the dragon, who is hoarding {object_plural.lower()}.")
+new_line()
+print(f"Smaug: Well, {name}! I smell you and I feel your air. I hear you {verb.lower()}. Come along! Help yourself again, there is plenty of {object_plural.lower()} to spare!")
+print(f"{name}: No thank you, O Smaug the {adjective.capitalize()}!")
+print(f"{name}: I did not come for presents. I only wished to have a look at you and see if you were truly as {adjective.lower()} as tales say. I did not belive them.")
+print(f"Smaug, somewhat flattered: Do you now?")
+print(f"{name}: Truly songs and tales fall utterly short of the reality, O Smaug the {adjective.capitalize()}est and {adjective2.capitalize()}est.")
